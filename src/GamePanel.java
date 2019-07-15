@@ -85,7 +85,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener{
 		g.drawString("Press enter to fail again", 5, 300);
 		if(score == 0) {
 			g.drawString("REALLY YOU SCORED 0!?!??!?!?!? ", 5, 400);
-			g.drawString("I KNEW YOUR WERE GOING TO FAIL BUT COME ON!!!!!", 5, 423);
+			g.drawString("I KNEW YOU WERE GOING TO FAIL BUT COME ON!!!!!", 5, 423);
 		}
 		}
 	void drawInstructions(Graphics g) {
