@@ -28,6 +28,8 @@ public class Runner extends GameObject{
 		x += Math.cos(movementAngle) * speed;
 		y += Math.sin(movementAngle) * speed;
 
+		
+		
 		super.update();
 	}
 	void draw(Graphics g) {

@@ -3,7 +3,7 @@ import java.awt.Graphics;
 
 public class Killer extends GameObject {
 	Runner runner;
-	int speed = 1;
+	public double speed = 1;
 	
 	Killer(int x, int y, int width, int height, Runner runner){
 		super(x,y,width,height);

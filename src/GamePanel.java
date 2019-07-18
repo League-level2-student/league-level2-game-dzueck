@@ -95,7 +95,9 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener{
 		g.setColor(Color.BLACK);
 		g.drawString("Place your mouse on the screen to move the runner", 5, 100);
 		g.drawString("Collect the aliens", 5, 200);
-		g.drawString("Avoid the nerd square", 5, 300);
+		g.drawString("Avoid the nerd squares", 5, 300);
+		g.setColor(Color.RED);
+		g.fillRect(5, 340, 40, 40);
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {

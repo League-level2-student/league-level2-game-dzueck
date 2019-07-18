@@ -30,6 +30,4 @@ public class TheGame {
 	JFrame getJFrame() {
 		return frame;
 	}
-	
-
 }
